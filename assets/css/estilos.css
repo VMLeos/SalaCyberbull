@@ -1,0 +1,133 @@
+//docstyle css
+
+<style>
+h1{
+	text-align: center;
+	font-size: 50px;
+
+}
+.header{
+	background-color:rgba(10,74,146, 0.5);
+	color: white;
+}
+.margin{
+  margin-top: 20px;
+}
+
+.footer{
+	background-color:rgba(10,74,146, 0.5);
+	color:fff;
+	text-align:center;
+}
+
+.card{
+	width: 100%;
+	max-width: 18rem;
+	margin: 0 20;
+}
+.btnir{
+  text-decoration: none;
+  display:inline-block;
+  width:50%;
+  padding:5px;
+  background: rgb(56, 116, 8);
+  width:20%;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 20px 5px rgb(175, 248, 132);
+  border-radius: 10px;
+ }
+
+.btnir:hover{
+
+  box-shadow: 0px 0px 20px 5px rgb(240, 200, 21);
+  color:rgb(186, 243, 53); 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .btn{
+	color: fff
+  }
+  
+  .btn{
+            
+    text-decoration: none;
+    display:inline-block;
+    width:50%;
+    padding:5spx;
+    background: rgb(202, 166, 7);
+    width:20%;
+    text-align: center;
+    color:rgb(172, 5, 5);
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.9s ease;
+    box-shadow: -5px 1px 3px 0px rgb(2, 16, 80);
+    border-radius: 10px 20px;
+
+  }
+
+
+  .btn:hover{
+            
+    background: rgb(14, 67, 240);
+    color:rgb(6, 40, 114);
+    box-shadow:none;
+    border-radius: 10px;
+
+  }
+
+
+  .light {
+    width: 100px;
+    height: 10px;
+    background-color: rgba(161, 146, 189, 0.7);
+    position: absolute;
+    border-radius: 25px 50px;
+    animation: move 07s linear infinite;
+}
+@keyframes move {
+    from {left: 0;}
+    to {left: 100%;}
+}
+
+.light2 {
+  width: 50px;
+  height: 50px;
+  animation: move 4s linear infinite;
+}
+@keyframes move {
+  from {left: 0;}
+  to {left: 100%;}
+}
+
+    /*Este código crea una clase CSS "light" que define un elemento de 100px x 100px con un fondo blanco.
+    Luego, utiliza JavaScript para seleccionar el elemento con la clase "light" y moverlo 10px a la derecha
+    cada 100 milisegundos mediante el uso de un setInterval.*/
+}
+.light.fade-out {
+  opacity: 0;
+}
+.light3 {
+  width: 150px;
+  height: 150px;
+  animation: move 6s linear infinite;
+}
+@keyframes move {
+  from {left: 0;}
+  to {left: 100%;}
+}
+}
+.light.fade-out {
+  opacity: 0;
+}
+
+</style>
+
