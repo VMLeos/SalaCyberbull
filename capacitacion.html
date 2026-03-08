@@ -1,61 +1,162 @@
-<!DOCTYPE <html>
-    <html lang="es">
-        <head>
-            <Meta charset="utf-8">
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-                integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-                <link rel="stylesheet" href="assets/css/estilos.css">
-             <div class=header>
-                <style h1></style>
-                <title>Capacitacion</title>
-                <center><h1>Cyberbull</h1></center>
-                <center><h3>Cursos y capacitaciones</h3></center>
-                <center> <p>San Miguel #314 A, Centro, Jesús María. Teléfono 449 239 36 06; por Whatsapp al 449 349 00 55<p></center>
-               </div class><br><br><br>
-        </head>
-        <body background="assets/images/Predator.jpg">
-            <center> <button type="button" class="btn btn-primary"><a href= "home.html">Regresar a la página principal</a></button></center><br>
-            <!-- == Button == -->
+<!DOCTYPE html>
+<html lang="es">
 
-            <div class="container">
-                <div class="card-group">
-    
-                    <div class="card">
-                          <img class="card-img-top" src="assets/images/Capempleo.jpg" alt="Capacítate para el empleo logo">
-                       <div class="card-body">
-                          <h4 class="card-title"><a href= "https://capacitateparaelempleo.org/" target="_blank">Capacítate para el empleo</a></h4>
-                       </div>
-                    </div>
-    
-                    <div class="card">
-                       <img class="card-img-top" src="assets/images/activate.png" alt="Google activate logo">
-                     <div class="card-body">
-                       <h4 class="card-title"><a href= "https://learndigital.withgoogle.com/activate/courses" target="_blank">Google actívate</a></h4>
-                     </div>
-                    </div>
-    
-                    <div class="card">
-                       <img class="card-img-top" src="assets/images/fundunam.png" alt="Fundación UNAM logo">
-                      <div class="card-body">
-                       <h4 class="card-title"><a href= "https://www.fundacionunam.org.mx/auriazul/la-unam-te-ofrece-cursos-online-y-gratuitos/" target="_blank">Fundación UNAM</a></h4>
-                      </div>
-                    </div>
+<head>
 
-                <div class="card">
-                    <img class="card-img-top" src="assets/images/procadist.png" alt="Procadist logo">
-                   <div class="card-body">
-                    <h4 class="card-title"><a href= "https://procadist.stps.gob.mx/moodle/" target="_blank">Procadist</a></h4>
-                   </div>
-                 </div>
-               </div>
-              </div>
-                    <br>
-                    <!-- == End of 1st Card Group Layout == -->
-                    <br><br>
-           <div class="footer">
-            <p>Powered by Cyberbull</p>
-            </div class="footer">
-            </div>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        </body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/estilos.css">
+
+<title>Capacitacion</title>
+
+<style>
+
+body{
+background-image:url("assets/images/Cyberbull cyborg.jpeg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+min-height:100vh;
+color:white;
+}
+
+.header{
+text-align:center;
+padding:20px;
+text-shadow:2px 2px 8px black;
+}
+
+.card{
+background:rgba(0,0,0,0.55);
+border:none;
+text-align:center;
+}
+
+.card-img-top{
+padding:15px;
+max-height:150px;
+object-fit:contain;
+}
+
+.card-title{
+color:white;
+}
+
+.cyber-btn{
+width:100%;
+border:none;
+padding:10px;
+background:white;
+color:black;
+font-weight:bold;
+border-radius:6px;
+transition:0.3s;
+}
+
+.cyber-btn:hover{
+background:black;
+color:white;
+box-shadow:0 0 15px black;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+background:rgba(0,0,0,0.5);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>Cyberbull</h1>
+<h3>Cursos y capacitaciones</h3>
+
+<p>
+San Miguel #314 A, Centro, Jesús María.  
+Teléfono 449 239 36 06; Whatsapp 449 349 00 55
+</p>
+
+</div>
+
+<center>
+<button type="button" class="btn btn-primary">
+<a href="home.html" style="color:white; text-decoration:none;">
+Regresar a la página principal
+</a>
+</button>
+</center>
+
+<br>
+
+<div class="container">
+
+<div class="row g-4">
+
+<div class="col-md-3 col-sm-6">
+<div class="card">
+<img class="card-img-top" src="assets/images/Capempleo.jpg">
+<div class="card-body">
+<h4 class="card-title">Capacítate para el empleo</h4>
+<button class="cyber-btn" onclick="location.href='https://capacitateparaelempleo.org/'">
+Acceder
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="card">
+<img class="card-img-top" src="assets/images/activate.png">
+<div class="card-body">
+<h4 class="card-title">Google Actívate</h4>
+<button class="cyber-btn" onclick="location.href='https://learndigital.withgoogle.com/activate/courses'">
+Acceder
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="card">
+<img class="card-img-top" src="assets/images/fundunam.png">
+<div class="card-body">
+<h4 class="card-title">Fundación UNAM</h4>
+<button class="cyber-btn" onclick="location.href='https://www.fundacionunam.org.mx/auriazul/la-unam-te-ofrece-cursos-online-y-gratuitos/'">
+Acceder
+</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="card">
+<img class="card-img-top" src="assets/images/procadist.png">
+<div class="card-body">
+<h4 class="card-title">Procadist</h4>
+<button class="cyber-btn" onclick="location.href='https://procadist.stps.gob.mx/moodle/'">
+Acceder
+</button>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="footer">
+<p>Powered by Kappa 8</p>
+</div>
+
+</body>
 </html>
